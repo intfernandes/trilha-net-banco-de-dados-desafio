@@ -1,3 +1,9 @@
+======================== 6 =======================
+
+SELECT * FROM Filmes f
+WHERE f.Duracao > 100 AND f.Duracao < 150
+ORDER BY Duracao
+
 ======================== 7 =======================
 // O COMANDO ESTÁ INADEQUADO, POIS PEDE QUE A CONSULTA
 // SEJA ORDENADA PELA DURAÇÃO, PORÉM ESTE DADO NÃO SE
