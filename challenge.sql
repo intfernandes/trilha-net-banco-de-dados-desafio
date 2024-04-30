@@ -1,3 +1,16 @@
+======================== 7 =======================
+// O COMANDO ESTÁ INADEQUADO, POIS PEDE QUE A CONSULTA
+// SEJA ORDENADA PELA DURAÇÃO, PORÉM ESTE DADO NÃO SE
+// ENCONTRA NA CONSULTA E A IMAGEM MOSTRA O RESULTADO SENDO
+// ORDENADO PELA QUANTIDADE DE FILMES LANÇADOS NAQUELE ANO
+
+SELECT 
+f.Ano,
+COUNT(f.Ano) Quantidade
+FROM Filmes f
+GROUP BY Ano
+ORDER BY Quantidade DESC
+
 ======================== 8 =======================
 
 SELECT a.PrimeiroNome, a.UltimoNome, a.Genero
