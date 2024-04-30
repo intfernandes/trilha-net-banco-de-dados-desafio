@@ -1,3 +1,13 @@
+======================== 9 =======================
+
+SELECT 
+a.PrimeiroNome,
+a.UltimoNome,
+a.Genero
+FROM Atores a
+WHERE a.Genero = 'F'
+ORDER BY a.PrimeiroNome
+
 ======================== 10 =======================
 
 SELECT f.Nome, g.Genero
