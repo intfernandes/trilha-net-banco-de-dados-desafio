@@ -1,3 +1,8 @@
+======================== 8 =======================
+
+SELECT a.PrimeiroNome, a.UltimoNome, a.Genero
+FROM Atores a
+
 ======================== 9 =======================
 
 SELECT 
