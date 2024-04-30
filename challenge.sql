@@ -1,3 +1,12 @@
+======================== 3 =======================
+
+SELECT 
+Nome,
+Ano,
+Duracao
+FROM Filmes
+WHERE Nome LIKE '%Volta%'
+
 ======================== 4 =======================
 
 SELECT * FROM Filmes
